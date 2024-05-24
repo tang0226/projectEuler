@@ -1,4 +1,4 @@
-from Solutions.functions import digitSum
+from functions import digitSum
 counts = []
 
 for i in range(100):

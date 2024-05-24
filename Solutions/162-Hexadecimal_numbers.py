@@ -1,4 +1,4 @@
-from Solutions.functions import nChooseK
+from math import comb
 maxDigs = 16
 total = 0
 for digs in range(3, maxDigs + 1):

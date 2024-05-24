@@ -1,4 +1,4 @@
-from Solutions.functions import nextPrime
+from functions import nextPrime
 power = 1
 n = 2
 multiplyOptions = [(3, 3, 1), (4, 2, 2)]

@@ -1,7 +1,7 @@
 """
 +-*/()
 """
-from Solutions.functions import padBin
+from functions import padBin
 from time import time
 start = time()
     
