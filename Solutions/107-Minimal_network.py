@@ -20,6 +20,7 @@ edges.sort()
 saving = sum(list(i[0] for i in edges))
 connected = list([i] for i in range(numVertices))
 
+# Add smallest edges until all vertices are connected
 for edge in edges:
     connect = edge[1]
     connect0 = connect[0]
