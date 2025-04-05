@@ -83,7 +83,7 @@ now = datetime.datetime.now() - datetime.timedelta(seconds=7*3600)
 		
 # Initialize list of problems
 problems = []
-with open("./prob_data.txt") as fp:
+with open("./Code/prob_data.txt") as fp:
 	line = fp.readline()
 	line = fp.readline().strip()
 	while line:
@@ -130,7 +130,7 @@ def drawTable(data, attr, col):
 	print(divider)
 	#return divider
 
-attributes = ["id", "description", "solvesPerDay"]
+attributes = ["id", "description", "solvesPerDay", "solvedBy"]
 sortBy = "solvesPerDay"
 heapSort(problems, lambda p: getattr(p, sortBy))
 problems.reverse()
